@@ -14,7 +14,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
-group :developement do
+group :developement, :test do
   gem 'guard'
   gem 'guard-rails'
   gem 'guard-livereload'
