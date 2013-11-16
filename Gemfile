@@ -14,11 +14,17 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
-group :development, :test do
+
+gem 'devise'
+
+gem 'bootstrap-sass'
+
+
+group :development do
   gem 'guard'
   gem 'guard-rails'
   gem 'guard-livereload'
-  gem 'better_errors'
+  gem "better_errors"
   gem 'sqlite3'
 end
 group :production do
